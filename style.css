@@ -10,26 +10,11 @@ h1 {
 }
 h1::after {
   content: "";
-  position: absolute;
-  width: 5px;
-  height: 5px;
+  width: 50px;
+ margin-top: 10px;
   display: block;
-  border: 1px dashed skyblue;
-}
+  border-bottom: 5px dashed skyblue;
+  background-size: 10px;
+} 
 
 
-/* h1::before {
-  content: '';
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background-color:skyblue;
-  display:block;
- margin-top: 50px;
- 
-} */
-
-/* h1 {
- 
-  border-bottom: 3px dashed blue;
-} */

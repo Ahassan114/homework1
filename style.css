@@ -10,11 +10,31 @@ h1 {
 }
 h1::after {
   content: "";
-  width: 50px;
+  width: 50px; 
  margin-top: 10px;
   display: block;
   border-bottom: 5px dashed skyblue;
   background-size: 10px;
 } 
 
+.tour-image {
+  width: 410px;
+  height: 240px;
+}
 
+.our-tours {
+  margin:0 auto;
+  margin-top: 140px;
+  margin-bottom: 50px;
+  font-family: "Lobster", cursive;
+}
+.our-tours::after {
+  content: "";
+  position:absolute;
+  width: 70px; 
+  margin-top: 10px;
+  display: block;
+  border-bottom: 5px dashed white;
+  padding: 10px;
+  margin-left: 48px;
+} 
